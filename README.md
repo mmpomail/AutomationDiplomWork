@@ -30,7 +30,7 @@
  
  - в терминале IntelliJ IDEA выполнить команду docker compose up
  
- #### Прогон тестов с использованием базы данных MySQL
+ #### Прогон тестов с использованием СУБД MySQL
  
  - открыть дополнительную вкладку в терминале IntelliJ IDEA, ввести команду java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar
  
@@ -42,7 +42,7 @@
 
  - открыть файл index.html, находящийся в папке build\reports\allure-report\allureReport
  
- #### Прогон тестов с использованием базы данных PostgreSQL
+ #### Прогон тестов с использованием СУБД PostgreSQL
  
  - открыть дополнительную вкладку в терминале IntelliJ IDEA, ввести команду java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar
  
