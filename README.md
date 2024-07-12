@@ -3,7 +3,11 @@
 
 ## Документация
 
+![План тестирования](https://github.com/mmpomail/AutomationDiplomWork/blob/main/Documents/Plan.md)
 
+![Отчёт по тестированию](https://github.com/mmpomail/AutomationDiplomWork/blob/main/Documents/Report.md)
+
+![Отчёт по автоматизации](https://github.com/mmpomail/AutomationDiplomWork/blob/main/Documents/Summary.md)
 
 
 ## Инструкция для запуска автотестов
@@ -33,6 +37,10 @@
  - убедиться, что в браузере Google Chrome открывается страница http://localhost:8080
  
  - открыть дополнительную вкладку в терминале IntelliJ IDEA, ввести команду ./gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app"
+   
+ - после прогона автотестов сгенерировать отчёт Allure, нажав кнопку "Gradle" на правой боковой панели, в появившемся окне зайти в папку verification и дважды кликнуть на allureReport
+
+ - открыть файл index.html, находящийся в папке build\reports\allure-report\allureReport
  
  #### Прогон тестов с использованием базы данных PostgreSQL
  
@@ -41,12 +49,12 @@
  - убедиться, что в браузере Google Chrome открывается страница http://localhost:8080
  
  - открыть дополнительную вкладку в терминале IntelliJ IDEA, ввести команду ./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app"
- 
- #### Формирование отчётности
- 
+
  - после прогона автотестов сгенерировать отчёт Allure, нажав кнопку "Gradle" на правой боковой панели, в появившемся окне зайти в папку verification и дважды кликнуть на allureReport
- 
+
  - открыть файл index.html, находящийся в папке build\reports\allure-report\allureReport
+ 
+
  
  
  
