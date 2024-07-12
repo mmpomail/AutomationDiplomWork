@@ -3,11 +3,11 @@
 
 ## Документация
 
-![План тестирования](https://github.com/mmpomail/AutomationDiplomWork/blob/main/Documents/Plan.md)
+[План тестирования](https://github.com/mmpomail/AutomationDiplomWork/blob/main/Documents/Plan.md)
 
-![Отчёт по тестированию](https://github.com/mmpomail/AutomationDiplomWork/blob/main/Documents/Report.md)
+[Отчёт по тестированию](https://github.com/mmpomail/AutomationDiplomWork/blob/main/Documents/Report.md)
 
-![Отчёт по автоматизации](https://github.com/mmpomail/AutomationDiplomWork/blob/main/Documents/Summary.md)
+[Отчёт по автоматизации](https://github.com/mmpomail/AutomationDiplomWork/blob/main/Documents/Summary.md)
 
 
 ## Инструкция для запуска автотестов
