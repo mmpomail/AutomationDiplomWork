@@ -18,7 +18,7 @@
 
 ### Порядок запуска автотестов и формирования отчётности
 
- - клонировать !(репозиторий)[https://github.com/mmpomail/Automation-Diplom](https://github.com/mmpomail/AutomationDiplomWork)
+ - клонировать ![репозиторий](https://github.com/mmpomail/AutomationDiplomWork)
  
  - запустить Docker Desktop, убедиться, что в программе отображается статус "Engine running"
  
