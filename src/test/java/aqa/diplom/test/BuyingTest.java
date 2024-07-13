@@ -14,17 +14,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BuyingTest {
 
-    MainPage mainPage;
-
     @AfterAll
     static void tearDownAll() {
         SelenideLogger.removeListener("allure");
     }
 
-    //@AfterEach
-    //void eraseDownAll() {
-    //   SQLHelper.cleanDB();
-    // }
+    @AfterEach
+    void eraseDownAll() {
+       SQLHelper.cleanDB();
+     }
 
 
     @BeforeAll
@@ -456,7 +454,7 @@ public class BuyingTest {
 
         var mainPage = new MainPage();
         DataGenerator.CardData card = new DataGenerator.CardData(getApprovedCardInfo(), nextMonth, nextYear, generateOwnerName(), getLongCvv());
-        mainPage.payWithDebitCard();
+        mainPage.payWithCreditCard();
         mainPage.fullForm(card);
         mainPage.mainPay();
         mainPage.successOperation();
