@@ -13,7 +13,8 @@
  - Успешных тестов 70,58% (24 теста)
  - Проваленных тестов 29,42% (10 тестов)
  
- ![Allure MySQL](https://github.com/user-attachments/assets/7b091f09-5df1-4d0e-bf0d-ef580b3d0239)
+ ![Allure MySQL](https://github.com/user-attachments/assets/13965110-596a-4eb5-953e-b3188b7f842b)
+
 
  
  
@@ -22,7 +23,8 @@
  - Успешных тестов 70,58% (24 теста)
  - Проваленных тестов 29,42% (10 тестов)
  
- ![Allure PosrgreSQL](https://github.com/user-attachments/assets/e7d8a9c8-e3d0-4d24-ad9d-c6896c32acb6)
+ ![Allure PosrgreSQL](https://github.com/user-attachments/assets/fea7e301-a909-41d2-b1df-cf762947cf79)
+
 
  
  ## Общие рекомендации
